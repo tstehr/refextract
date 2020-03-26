@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+refextract = "*"
+pybtex = "*"
+unicodecsv = "*"
+pandas = "*"
+jupyter = "*"
+scikit-learn = "==0.20"
+openpyxl = "*"
+
+[requires]
+python_version = "2.7"
